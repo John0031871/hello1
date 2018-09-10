@@ -16,5 +16,11 @@ namespace hello1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hello");
+
+        }
     }
 }
